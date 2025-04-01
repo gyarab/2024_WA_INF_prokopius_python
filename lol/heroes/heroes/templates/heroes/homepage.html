@@ -1,0 +1,19 @@
+{% extends "heroes/base.html" %}
+
+{% block content %}
+    <h2>Hrdinové</h2>
+    <ul>
+        {% for hero in heroes %}
+            <li>
+                <a href="{% url 'hero_detail' hero.id %}">{{ hero.name }} - {{ hero.title }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+
+    <h2>Kategorie</h2>
+    <ul>
+        {% for category in categories %}
+            <li><a href="{% url 'category_detail' category.id %}">{{ category.name }}</a></li>
+        {% endfor %}
+    </ul>
+{% endblock %}

@@ -1,0 +1,16 @@
+{% extends "heroes/base.html" %}
+
+{% block content %}
+    <h2>{{ hero.name }} - {{ hero.title }}</h2>
+    <p>{{ hero.description }}</p>
+    <p>Kategorie: <a href="{% url 'category_detail' hero.category.id %}">{{ hero.category.name }}</a></p>
+
+    <h3>Autoři článku:</h3>
+    <ul>
+        {% for author in hero.authors.all %}
+            <li><a href="{% url 'author_detail' author.id %}">{{ author.name }}</a></li>
+        {% endfor %}
+    </ul>
+
+    <a href="{% url 'homepage' %}">Zpět na seznam</a>
+{% endblock %}

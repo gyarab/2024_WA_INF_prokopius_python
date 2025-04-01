@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "name": "Ahri",
+        "title": "Devětocasá liška",
+        "description": "Ahri je magická liška schopná manipulovat s esencí duší."
+    },
+    {
+        "id": 2,
+        "name": "Yasuo",
+        "title": "Nezkrotný vánek",
+        "description": "Yasuo je mistr meče, který ovládá sílu větru."
+    }
+]

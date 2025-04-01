@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}League of Legends CMS{% endblock %}</title>
+</head>
+<body>
+    <h1>League of Legends CMS</h1>
+    {% block content %}{% endblock %}
+</body>
+</html>
+
+{% extends "heroes/base.html" %}
+
+{% block title %}Seznam hrdinů{% endblock %}
+
+{% block content %}
+    <h2>Seznam hrdinů</h2>
+    <ul>
+        {% for hero in heroes %}
+            <li>
+                <a href="{% url 'hero_detail' hero.id %}">{{ hero.name }} - {{ hero.title }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+{% endblock %}
