@@ -1,0 +1,12 @@
+{% extends 'content/base.html' %}
+{% block title %}Author: {{ author.name }}{% endblock %}
+{% block content %}
+<h2>{{ author.name }}</h2>
+<p>{{ author.bio }}</p>
+<h3>Articles</h3>
+<ul>
+  {% for article in author.article_set.all %}
+    <li><a href="{% url 'article_detail' article.slug %}">{{ article.title }}</a></li>
+  {% endfor %}
+</ul>
+{% endblock %}
