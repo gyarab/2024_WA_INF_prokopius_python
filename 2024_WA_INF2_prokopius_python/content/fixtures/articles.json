@@ -1,0 +1,99 @@
+[
+  {
+    "model": "content.category",
+    "pk": 1,
+    "fields": { "name": "Top", "slug": "top" }
+  },
+  {
+    "model": "content.category",
+    "pk": 2,
+    "fields": { "name": "Jungle", "slug": "jungle" }
+  },
+  {
+    "model": "content.category",
+    "pk": 3,
+    "fields": { "name": "Mid", "slug": "mid" }
+  },
+  {
+    "model": "content.category",
+    "pk": 4,
+    "fields": { "name": "Bottom", "slug": "bottom" }
+  },
+  {
+    "model": "content.category",
+    "pk": 5,
+    "fields": { "name": "Support", "slug": "support" }
+  },
+
+  {
+    "model": "content.author",
+    "pk": 1,
+    "fields": { "name": "PicklePantsLoL", "bio": "Experienced guide writer focusing on top lane champions." }
+  },
+  {
+    "model": "content.author",
+    "pk": 2,
+    "fields": { "name": "Mobalytics", "bio": "Comprehensive analytics and guides for all roles and champions." }
+  },
+  {
+    "model": "content.author",
+    "pk": 3,
+    "fields": { "name": "u.gg", "bio": "Up-to-date statistics and guides for optimizing gameplay." }
+  },
+
+  {
+    "model": "content.article",
+    "pk": 1,
+    "fields": {
+      "title": "Mastering Darius: The Top Lane Juggernaut",
+      "slug": "darius-top-guide",
+      "content": "An in-depth guide on playing Darius in the top lane, covering abilities, item builds, and matchups.",
+      "category": 1,
+      "authors": [1]
+    }
+  },
+  {
+    "model": "content.article",
+    "pk": 2,
+    "fields": {
+      "title": "Lee Sin Jungle Pathing and Mechanics",
+      "slug": "lee-sin-jungle-guide",
+      "content": "A comprehensive guide to mastering Lee Sin in the jungle, including pathing strategies and combo mechanics.",
+      "category": 2,
+      "authors": [2]
+    }
+  },
+  {
+    "model": "content.article",
+    "pk": 3,
+    "fields": {
+      "title": "Zed Mid Lane Assassination Techniques",
+      "slug": "zed-mid-guide",
+      "content": "Tips and strategies for playing Zed in the mid lane, focusing on assassination techniques and laning phase.",
+      "category": 3,
+      "authors": [3]
+    }
+  },
+  {
+    "model": "content.article",
+    "pk": 4,
+    "fields": {
+      "title": "Mastering Jhin: Precision and Timing",
+      "slug": "jhin-bottom-guide",
+      "content": "A detailed guide on playing Jhin in the bottom lane, emphasizing precision, timing, and positioning.",
+      "category": 4,
+      "authors": [2]
+    }
+  },
+  {
+    "model": "content.article",
+    "pk": 5,
+    "fields": {
+      "title": "Thresh Support: Engaging and Peel Techniques",
+      "slug": "thresh-support-guide",
+      "content": "An extensive guide on playing Thresh as a support, focusing on engagement and peeling for carries.",
+      "category": 5,
+      "authors": [1]
+    }
+  }
+]
