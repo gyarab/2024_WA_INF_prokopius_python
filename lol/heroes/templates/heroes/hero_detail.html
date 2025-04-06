@@ -1,9 +1,0 @@
-{% extends "heroes/base.html" %}
-
-{% block title %}{{ hero.name }}{% endblock %}
-
-{% block content %}
-    <h2>{{ hero.name }} - {{ hero.title }}</h2>
-    <p>{{ hero.description }}</p>
-    <a href="{% url 'homepage' %}">Zpět na seznam</a>
-{% endblock %}
