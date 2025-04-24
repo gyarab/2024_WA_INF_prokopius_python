@@ -1,10 +1,11 @@
 from .models import Article, Author, Category
+from django.shortcuts import render
 
-def db_index(request):
+def index(request):
     articles = Article.objects.all()
     return render(request, 'content/index.html', {'articles': articles})
 
-def db_article_detail(request, slug):
+def article_detail(request, slug):
     article = Article.objects.get(slug=slug)
     return render(request, 'content/detail.html', {'article': article})
 
