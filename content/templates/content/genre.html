@@ -1,0 +1,18 @@
+{% extends "content/base.html" %}
+
+{% block title %}{{genre.title}}{% endblock %}
+
+{% block content %}
+<div class="content">
+    <h1>{{ genre.name }}</h1>
+
+    <h2>Knihy v tomto žánru:</h2>
+    <ul>
+        {% for book in genre.books.all %}
+            <li>
+                <a href="/book/{{ book.id }}">{{ book.title }}</a> 
+            </li>
+        {% endfor %}
+    </ul>
+</div>
+{% endblock %}

@@ -1,0 +1,22 @@
+{% extends "content/base.html" %}
+
+{% block title %}Hustý knihy{% endblock %}
+
+{% block content %}
+<div class="homepage">
+    <p>Vítejte na stránkách Hustý knihy, kde najdete ty nejhustší knihy!</p>
+    <p>Prozkoumejte náš výběr světově uznávaných hustých knih a zvažte přečtení alespoň jedné z nich.</p>
+    {% comment %} <a href="{% url 'book_list' %}" class="btn">Zobrazit knihy</a> {% endcomment %}
+</div>
+<div class="content">
+    <h2>Seznam knih</h2>
+    <ul>
+        {% for book in books %}
+            <li>
+                <a href="/book/{{book.id}}">{{ book.title }}</a> - <a href="/author/{{book.author.id}}">{{ book.author.name }}</a>  
+
+            </li>
+        {% endfor %}
+    </ul>
+{% endblock %}
+

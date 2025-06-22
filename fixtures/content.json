@@ -1,0 +1,279 @@
+[
+    {
+        "model": "content.book",
+        "pk": 1,
+        "fields": {
+            "title": "Dášenka",
+            "author": 1,
+            "description": "Dášeňka čili Život štěněte je milá a humorná kniha Karla Čapka, určená především dětem. Vypráví o malém foxteriérovi jménem Dášeňka – od jejího narození, přes první krůčky, poznávání světa až po její dospívání. Text doprovázejí autorovy vlastní fotografie a ilustrace, které dodávají knize osobitý půvab. Kniha je nejen laskavým pohledem na život štěněte, ale i jemnou oslavou přírody, zvířat a lidského soucitu.",
+            "published_year": 1933,
+            "genres": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "content.book",
+        "pk": 2,
+        "fields": {
+            "title": "Na západní frontě klid",
+            "author": 2,
+            "description": "Na západní frontě klid je slavný protiválečný román Ericha Maria Remarqua, který vypráví příběh mladého německého vojáka Pavla Bäumera během první světové války. Kniha realisticky zachycuje krutosti a beznaděj života na frontě, fyzické i psychické utrpení vojáků a ztrátu iluzí o hrdinství. Dílo je silným obviněním války a oslavou lidskosti uprostřed nelidských podmínek. Patří k nejvýznamnějším protiválečným knihám 20. století.",
+            "published_year": 1928,
+            "genres": [
+                2
+            ]
+        }
+    },
+    {
+        "model": "content.book",
+        "pk": 3,
+        "fields": {
+            "title": "Válka s mloky",
+            "author": 1,
+            "description": "Válka s Mloky je satirický román Karla Čapka z roku 1936, který kombinuje prvky sci-fi, alegorie a společenské kritiky. Příběh začíná objevem inteligentního druhu mloků, kteří jsou zpočátku využíváni lidmi jako levná pracovní síla. Postupně však mloci získávají větší moc a obracejí se proti lidstvu.\r\n\r\nRomán ostře kritizuje kolonialismus, fašismus, kapitalismus a bezohledné technické pokroky. Válka s Mloky je varováním před lidskou chamtivostí, xenofobií a neochotou nést odpovědnost za své činy. Dílo je považováno za jedno z Čapkových vrcholných děl a dodnes zůstává aktuální.",
+            "published_year": 1936,
+            "genres": [
+                3,
+                4
+            ]
+        }
+    },
+    {
+        "model": "content.book",
+        "pk": 4,
+        "fields": {
+            "title": "Babička",
+            "author": 3,
+            "description": "Babička je nejznámější dílo Boženy Němcové, vydané v roce 1855. Jde o idealizované vzpomínky na autorčino dětství, zasazené do venkovského prostředí Ratibořic. Hlavní postavou je moudrá a laskavá babička, která svým klidem, životní moudrostí a láskou ovlivňuje celou rodinu i okolí.\r\n\r\nKniha zachycuje každodenní život na venkově, tradiční zvyky, vztahy mezi lidmi i příběhy postav jako Viktorka, paní kněžna nebo Barunka. Babička je oslavou rodiny, české přírody a lidové kultury, a patří ke klenotům české literatury.",
+            "published_year": 1855,
+            "genres": [
+                5
+            ]
+        }
+    },
+    {
+        "model": "content.book",
+        "pk": 5,
+        "fields": {
+            "title": "Osudy dobrého vojáka švejka",
+            "author": 4,
+            "description": "Osudy dobrého vojáka Švejka za světové války je slavný satirický román Jaroslava Haška, který vypráví příběh prostého a údajně \"blbého\" vojáka Josefa Švejka během první světové války. Švejk se svým neustálým humorem, naivitou a podřízeností odhaluje absurditu vojenského systému, byrokracie i samotné války.\r\n\r\nRomán je silnou kritikou nesmyslnosti války a rakousko-uherské monarchie, psaný živým, hovorovým jazykem a plný groteskních situací. Dílo zůstalo nedokončené, ale přesto patří k nejvýznamnějším knihám české literatury a světové protiválečné satiry.",
+            "published_year": 1921,
+            "genres": [
+                4,
+                5,
+                6,
+                7
+            ]
+        }
+    },
+    {
+        "model": "content.book",
+        "pk": 6,
+        "fields": {
+            "title": "Proces",
+            "author": 5,
+            "description": "Proces je významný román Franze Kafky, který vypráví příběh Josefa K., který je náhle zatčen a postaven před nesrozumitelný a bezohledný soudní systém, aniž by kdy přesně zjistil, z čeho je obviněn.\r\n\r\nKniha zobrazuje pocit bezmoci, absurdity a odcizení jedince v byrokratickém a neprůhledném světě. Proces je často chápán jako symbol totalitních režimů a existenční úzkosti moderního člověka.",
+            "published_year": 1925,
+            "genres": [
+                4,
+                8
+            ]
+        }
+    },
+    {
+        "model": "content.book",
+        "pk": 7,
+        "fields": {
+            "title": "Bylo nás 5",
+            "author": 6,
+            "description": "Bylo nás pět je oblíbený humoristický román Karla Poláčka, který vypráví příběhy pěti chlapců vyrůstajících v malém českém městě během počátku 20. století. Kniha zachycuje jejich dětská dobrodružství, přátelství, lumpárny i rodinný život s laskavým humorem a nostalgií.\r\n\r\nDílo je nejen zábavné, ale také věrně vykresluje atmosféru tehdejší doby a každodenní život obyčejných lidí. Bylo nás pět patří k nejčtenějším a nejoblíbenějším českým knihám pro všechny generace.",
+            "published_year": 1946,
+            "genres": [
+                9
+            ]
+        }
+    },
+    {
+        "model": "content.book",
+        "pk": 8,
+        "fields": {
+            "title": "Krysař",
+            "author": 7,
+            "description": "Krysař je poetický a temný román Viktora Dyka, který čerpá z legendy o krysaři z německého města Hamelin. Vypráví příběh záhadného hudebníka, který svým kouzelným hraním láká krysy pryč z města, ale když mu obyvatelé nesplní slib, pomstí se tím, že odvádí i děti.\r\n\r\nRomán je plný symboliky a mystiky, zkoumá témata zodpovědnosti, pomsty a osudu. Krysař patří k nejvýznamnějším dílům české literatury 20. století.",
+            "published_year": 1915,
+            "genres": [
+                10
+            ]
+        }
+    },
+    {
+        "model": "content.book",
+        "pk": 9,
+        "fields": {
+            "title": "Zbabělci",
+            "author": 8,
+            "description": "Zbabělci jsou románem Josefa Škvoreckého, který líčí osudy skupiny českých studentů během druhé světové války. Hlavní postavy procházejí vnitřními konflikty, strachem a pochybnostmi o vlastní odvaze a morálce v době nacistické okupace.\r\n\r\nKniha je kombinací vážného tématu, humoru a ironie, a zkoumá lidskou odvahu, zbabělost i složitost mezilidských vztahů v těžkých časech. Zbabělci patří mezi klíčová díla české válečné literatury.",
+            "published_year": 1958,
+            "genres": [
+                5
+            ]
+        }
+    },
+    {
+        "model": "content.book",
+        "pk": 10,
+        "fields": {
+            "title": "Obsluhoval jsem anglického krále",
+            "author": 9,
+            "description": "Obsluhoval jsem anglického krále je román Bohumila Hrabala, který vypráví osudy obyčejného číšníka Jindřicha, jenž během svého života prochází různými společenskými vrstvami a historickými událostmi v Československu 20. století.\r\n\r\nKniha kombinuje humor, satiru a tragédii a zachycuje proměny společnosti i lidské ambice, marnivost a touhu po štěstí. Dílo je zároveň kritickým pohledem na politiku, moc a lidskou přetvářku.",
+            "published_year": 1971,
+            "genres": [
+                9
+            ]
+        }
+    },
+    {
+        "model": "content.author",
+        "pk": 1,
+        "fields": {
+            "name": "Karel Čapek",
+            "bio": "Karel Čapek (1890–1938) byl významný český spisovatel, dramatik, novinář a filozof. Proslavil se jako autor science fiction, filozofických esejů i politických úvah. Jeho nejznámější díla zahrnují drama R.U.R. (Rossumovi univerzální roboti), kde poprvé zaznělo slovo „robot“, a románovou trilogii Hordubal, Povětroň a Obyčejný život. Čapek byl aktivní odpůrce totalitních ideologií a velký zastánce demokracie a humanismu. Úzce spolupracoval se svým bratrem, malířem a spisovatelem Josefem Čapkem. Zemřel krátce před začátkem druhé světové války."
+        }
+    },
+    {
+        "model": "content.author",
+        "pk": 2,
+        "fields": {
+            "name": "Erich Maria Remarque",
+            "bio": "Erich Maria Remarque (1898–1970) byl německý spisovatel, známý především svými protiválečnými romány. Největší slávu mu přinesla kniha Na západní frontě klid, která realisticky a citlivě popisuje hrůzy první světové války z pohledu obyčejného vojáka. Remarque sám bojoval v první světové válce, což výrazně ovlivnilo jeho tvorbu. Kvůli svým postojům a knihám byl pronásledován nacisty a odešel do exilu. Ve svých dílech často zobrazoval ztracenou generaci, válku, exil a lidské utrpení."
+        }
+    },
+    {
+        "model": "content.author",
+        "pk": 3,
+        "fields": {
+            "name": "Božena Němcová",
+            "bio": "Božena Němcová (1820?–1862) byla významná česká spisovatelka, jedna z nejvýraznějších osobností českého národního obrození. Proslavila se zejména knihou Babička, ve které s láskou a idealismem líčí venkovský život a tradice.\r\n\r\nVěnovala se sběru lidových pohádek a pověstí, které zpracovala ve sbírkách jako Národní báchorky a pověsti. Ve svých povídkách často zobrazovala postavení žen, sociální nespravedlnost a krásu venkovského života.\r\n\r\nJejí osobní život byl plný bolesti a finanční tísně, přesto se její dílo stalo základem české literatury a symbolem kulturní identity."
+        }
+    },
+    {
+        "model": "content.author",
+        "pk": 4,
+        "fields": {
+            "name": "Jaroslav Hašek",
+            "bio": "Jaroslav Hašek (1883–1923) byl český spisovatel, satirik, novinář a humorista, známý především jako autor slavného románu Osudy dobrého vojáka Švejka za světové války. Jeho tvorba je plná ironie, absurdit a kritiky byrokracie, armády i společnosti.\r\n\r\nHašek vedl bohémský život, pracoval jako redaktor, cestoval a účastnil se první světové války, během níž byl zajat a později vstoupil do československých legií i Rudé armády. Jeho dílo je dodnes ceněno pro svůj originální jazyk, humor a ostrou satiru."
+        }
+    },
+    {
+        "model": "content.author",
+        "pk": 5,
+        "fields": {
+            "name": "Franz Kafka",
+            "bio": "Franz Kafka (1883–1924) byl německy píšící spisovatel židovského původu, narozený v Praze. Patří k nejvlivnějším autorům 20. století. Ve svých dílech zobrazoval odcizení, úzkost, absurditu byrokracie a bezmoc jedince v nesrozumitelném světě.\r\n\r\nJeho nejznámějšími díly jsou Proměna, Proces a Zámek. Za života publikoval jen malou část své tvorby a přál si, aby byla po jeho smrti zničena. Jeho přítel Max Brod však jeho přání nerespektoval a posmrtně vydal většinu jeho děl, čímž Kafka získal světový věhlas."
+        }
+    },
+    {
+        "model": "content.author",
+        "pk": 6,
+        "fields": {
+            "name": "Karel Poláček",
+            "bio": "Karel Poláček (1892–1945) byl český spisovatel, novinář a humorista, známý především svými satirickými romány a povídkami, které zachycují meziválečnou českou společnost. Narodil se v Rychnově nad Kněžnou do židovské rodiny a studoval práva na Univerzitě Karlově, avšak studium nedokončil. Během první světové války narukoval do armády, absolvoval důstojnickou školu a prošel ruskou a italskou frontou. Po válce pracoval jako novinář pro Lidové noviny a Československý rozhlas. Proslavil se cyklem románů Okresní město a především dílem Bylo nás pět. Za druhé světové války byl kvůli svému židovskému původu deportován do koncentračního tábora, kde zemřel."
+        }
+    },
+    {
+        "model": "content.author",
+        "pk": 7,
+        "fields": {
+            "name": "Viktor Dyk",
+            "bio": "Viktor Dyk (1877–1931) byl významný český básník, spisovatel, dramatik a politik. Patřil k předním představitelům české moderní literatury a byl známý svým vlasteneckým a protirakouským postojem.\r\n\r\nJeho tvorba zahrnuje básně, romány i divadelní hry, přičemž často zdůrazňoval téma svobody a národní identity. Mezi jeho nejznámější díla patří román Krysař a básnická sbírka Půlnoc. Dyk byl také aktivním členem Národní demokracie a po vzniku Československa se angažoval v politice."
+        }
+    },
+    {
+        "model": "content.author",
+        "pk": 8,
+        "fields": {
+            "name": "Josef Škvorecký",
+            "bio": "Josef Škvorecký (1924–2012) byl významný český spisovatel, překladatel a nakladatel, který po invazi vojsk Varšavské smlouvy v roce 1968 emigroval do Kanady. Jeho díla často reflektují život v totalitním režimu, svobodu a exil.\r\n\r\nMezi jeho nejznámější knihy patří Zbabělci a Tankový prapor, které kombinují humor, kritiku společnosti a osobní zkušenosti. Škvorecký byl významnou postavou české literatury a pomáhal prosazovat českou kulturu v zahraničí."
+        }
+    },
+    {
+        "model": "content.author",
+        "pk": 9,
+        "fields": {
+            "name": "Bohumil Hrabal",
+            "bio": "Bohumil Hrabal (1914–1997) byl jeden z nejvýznamnějších českých spisovatelů 20. století, známý svým jedinečným stylem, který kombinuje humor, absurditu a poezii každodenního života.\r\n\r\nJeho díla často zobrazují obyčejné lidi, jejich radosti i trápení, a to s velkou dávkou laskavosti a nadhledu. Mezi jeho nejznámější knihy patří Ostře sledované vlaky, Příliš hlučná samota a Postřižiny. Hrabalovo psaní je oblíbené pro svou živost, originální jazyk a hloubku lidského příběhu."
+        }
+    },
+    {
+        "model": "content.genre",
+        "pk": 1,
+        "fields": {
+            "name": "Dětská literatura"
+        }
+    },
+    {
+        "model": "content.genre",
+        "pk": 2,
+        "fields": {
+            "name": "Válečný román"
+        }
+    },
+    {
+        "model": "content.genre",
+        "pk": 3,
+        "fields": {
+            "name": "Science fiction"
+        }
+    },
+    {
+        "model": "content.genre",
+        "pk": 4,
+        "fields": {
+            "name": "Román"
+        }
+    },
+    {
+        "model": "content.genre",
+        "pk": 5,
+        "fields": {
+            "name": "Fikce"
+        }
+    },
+    {
+        "model": "content.genre",
+        "pk": 6,
+        "fields": {
+            "name": "Černá komedie"
+        }
+    },
+    {
+        "model": "content.genre",
+        "pk": 7,
+        "fields": {
+            "name": "Satira"
+        }
+    },
+    {
+        "model": "content.genre",
+        "pk": 8,
+        "fields": {
+            "name": "Byrokratický román"
+        }
+    },
+    {
+        "model": "content.genre",
+        "pk": 9,
+        "fields": {
+            "name": "Komedie"
+        }
+    },
+    {
+        "model": "content.genre",
+        "pk": 10,
+        "fields": {
+            "name": "Alegorie"
+        }
+    }
+]

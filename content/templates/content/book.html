@@ -1,0 +1,19 @@
+{% extends "content/base.html" %}
+
+{% block title %}{{ book.title }}{% endblock %}
+
+{% block content %}
+<div class="content">
+    <h1>{{ book.title }}</h1>
+    <ul>
+        <li><strong>Autor:</strong> <a href= "/author/{{ book.author.id }}">{{ book.author.name }}</a></li>
+        <li><strong>Žánry:</strong> 
+            {% for genre in book.genres.all %}
+        <a href="/genre/{{ genre.id }}">{{ genre.name }}</a>{% if not forloop.last %}, {% endif %}
+            {% endfor %}
+        </li>
+    </ul>
+    <p><strong>Popis:</strong> {{ book.description }}</p>
+</div>
+{% endblock %}
+
